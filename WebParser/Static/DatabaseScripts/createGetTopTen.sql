@@ -1,0 +1,5 @@
+CREATE PROCEDURE [dbo].[GetTopTen]
+AS
+BEGIN
+SELECT TOP 10 value [word] FROM posts p CROSS APPLY STRING_SPLIT(p.Text, ' ') GROUP BY value ORDER BY COUNT(*) DESC;
+END

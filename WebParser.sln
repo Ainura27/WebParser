@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebParser", "WebParser\WebParser.csproj", "{FF1C252C-4033-434B-8215-2C81DD9EE3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlParser", "HtmlParser\HtmlParser.csproj", "{34B8F1C2-C31C-411B-B008-3F3FD803D8DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF1C252C-4033-434B-8215-2C81DD9EE3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1C252C-4033-434B-8215-2C81DD9EE3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1C252C-4033-434B-8215-2C81DD9EE3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1C252C-4033-434B-8215-2C81DD9EE3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B8F1C2-C31C-411B-B008-3F3FD803D8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B8F1C2-C31C-411B-B008-3F3FD803D8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B8F1C2-C31C-411B-B008-3F3FD803D8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B8F1C2-C31C-411B-B008-3F3FD803D8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2564AC5C-2256-4E3E-A6A2-34EB05C94587}
+	EndGlobalSection
+EndGlobal
